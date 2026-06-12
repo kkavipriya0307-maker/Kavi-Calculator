@@ -38,8 +38,10 @@ try:
             o = '-'
         elif(o == '3'):
             o = '*'
-        else:
+        elif(o == '4'):
             o = '/'
+        else:
+            print("Invalid")
 
         history = f"{n1} {o} {n2} = {t}"
         hist.append(history)
